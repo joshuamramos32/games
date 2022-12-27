@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: lightgrey;
+}
+
+
+h1{
+    text-align: center;
+    color: whitesmoke;
+    background: red;
+    margin: 10px;
+}
+
+.game {
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    overflow: hidden;
+
+}
+.hole{
+    width: 130px;
+    height: 130px;
+    margin: 10px;
+    border-radius: 50%;
+    background: white;
+}
+
+img{
+    width: 125px;
+    height: 125px;
+    margin: 3px;
+    border-radius: 50%;
+
+}
+
+
+.button{
+    margin: 20px ;
+    width: 250px;
+    background: red;
+    color: whitesmoke;
+    font-weight: bold;
+}
