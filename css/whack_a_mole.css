@@ -39,12 +39,17 @@ h1{
     border-radius: 50%;
     background: white;
 }
+.hole.up .mole {
+    top: 0;
+}
 
 img{
     width: 125px;
     height: 125px;
     margin: 3px;
     border-radius: 50%;
+    transition: 0.4s ease;
+    /*display: none;*/
 
 }
 
@@ -55,4 +60,7 @@ img{
     background: red;
     color: whitesmoke;
     font-weight: bold;
+}
+.up{
+    visibility: hidden ;
 }
